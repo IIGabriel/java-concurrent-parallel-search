@@ -45,18 +45,26 @@ public class MainFrame extends JFrame {
         title.setForeground(Color.WHITE);
         title.setFont(new Font("Arial", Font.BOLD, 16));
 
-        runButton = new JButton("Executar Benchmark");
-        runButton.setBackground(new Color(0, 180, 100));
-        runButton.setForeground(Color.WHITE);
-        runButton.setFont(new Font("Arial", Font.BOLD, 13));
+        runButton = new JButton("▶  Executar Benchmark");
+        runButton.setBackground(new Color(34, 197, 94));
+        runButton.setForeground(new Color(10, 40, 10));
+        runButton.setFont(new Font("Arial", Font.BOLD, 14));
         runButton.setFocusPainted(false);
+        runButton.setBorder(BorderFactory.createCompoundBorder(
+                BorderFactory.createLineBorder(new Color(21, 128, 61), 2),
+                BorderFactory.createEmptyBorder(6, 16, 6, 16)));
+        runButton.setOpaque(true);
         runButton.addActionListener(e -> startBenchmark());
 
-        JButton exportButton = new JButton("Exportar CSV");
-        exportButton.setBackground(new Color(0, 120, 200));
-        exportButton.setForeground(Color.WHITE);
-        exportButton.setFont(new Font("Arial", Font.BOLD, 13));
+        JButton exportButton = new JButton("⬇  Exportar CSV");
+        exportButton.setBackground(new Color(250, 204, 21));
+        exportButton.setForeground(new Color(60, 40, 0));
+        exportButton.setFont(new Font("Arial", Font.BOLD, 14));
         exportButton.setFocusPainted(false);
+        exportButton.setBorder(BorderFactory.createCompoundBorder(
+                BorderFactory.createLineBorder(new Color(180, 140, 0), 2),
+                BorderFactory.createEmptyBorder(6, 16, 6, 16)));
+        exportButton.setOpaque(true);
         exportButton.addActionListener(e -> exportCSV());
 
         topPanel.add(title);
