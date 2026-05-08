@@ -1,0 +1,15 @@
+/Users/ivogabriel/GolandProjects/Estudo/av2_paralel/src/main/java/br/av2/Main.java
+/Users/ivogabriel/GolandProjects/Estudo/av2_paralel/src/main/java/br/av2/algorithms/parallel/ParallelBubbleSort.java
+/Users/ivogabriel/GolandProjects/Estudo/av2_paralel/src/main/java/br/av2/algorithms/parallel/ParallelMergeSort.java
+/Users/ivogabriel/GolandProjects/Estudo/av2_paralel/src/main/java/br/av2/algorithms/parallel/ParallelQuickSort.java
+/Users/ivogabriel/GolandProjects/Estudo/av2_paralel/src/main/java/br/av2/algorithms/parallel/ParallelSelectionSort.java
+/Users/ivogabriel/GolandProjects/Estudo/av2_paralel/src/main/java/br/av2/algorithms/serial/BubbleSort.java
+/Users/ivogabriel/GolandProjects/Estudo/av2_paralel/src/main/java/br/av2/algorithms/serial/MergeSort.java
+/Users/ivogabriel/GolandProjects/Estudo/av2_paralel/src/main/java/br/av2/algorithms/serial/QuickSort.java
+/Users/ivogabriel/GolandProjects/Estudo/av2_paralel/src/main/java/br/av2/algorithms/serial/SelectionSort.java
+/Users/ivogabriel/GolandProjects/Estudo/av2_paralel/src/main/java/br/av2/benchmark/BenchmarkResult.java
+/Users/ivogabriel/GolandProjects/Estudo/av2_paralel/src/main/java/br/av2/benchmark/BenchmarkRunner.java
+/Users/ivogabriel/GolandProjects/Estudo/av2_paralel/src/main/java/br/av2/benchmark/DataGenerator.java
+/Users/ivogabriel/GolandProjects/Estudo/av2_paralel/src/main/java/br/av2/csv/CSVWriter.java
+/Users/ivogabriel/GolandProjects/Estudo/av2_paralel/src/main/java/br/av2/gui/ChartPanelWrapper.java
+/Users/ivogabriel/GolandProjects/Estudo/av2_paralel/src/main/java/br/av2/gui/MainFrame.java
